@@ -1,0 +1,60 @@
+@media (min-width:992px) and (max-width:1199px){
+    main #banner .banner_slider h2 {
+        font-size: 59px;
+        line-height: 60px;
+    }
+    #banner .slick-dots {
+        left: 28px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    main #banner .banner_slider {
+        height: 500px;
+    }
+    main #banner .row {
+        height: 500px;
+    }
+    main #banner .banner_slider h2 {
+        font-size: 43px;
+        line-height: 43px;
+    }
+ 
+    #banner .slick-dots {
+        bottom: 11%;
+        left: 29px;
+    }
+    .button {
+        padding: 14px 29px;
+    }
+}
+
+@media (min-width:320px) and (max-width:767px){
+    main #banner .banner_slider {
+        height: 300px;
+    }
+    main #banner .row {
+        height: 300px;
+    }
+    main #banner .banner_slider .banner_cnt {
+        width: 100%;
+    }
+    main #banner .banner_slider h2 {
+        line-height: 48px;
+        font-size: 41px;
+    }
+    main #banner .banner_slider p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .button {
+        padding: 13px 14px;
+    
+    }
+    #banner .slick-dots {
+        bottom: -3%;
+    }
+    #banner .slick-dots button {
+     transform: scale(0.5);
+    }
+}
